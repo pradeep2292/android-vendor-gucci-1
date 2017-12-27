@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Quick specs for  HM NOTE 1S CT
 ---------------------------------------
 
@@ -20,3 +21,6 @@ Bluetooth | v4.0, A2DP, LE
 USB | microUSB v2.0, USB Host
 Sensors | Accelerometer, gyro, proximity, compass
 Battery | Li-Ion 3100 mAh
+=======
+Vendor in Progress .............
+>>>>>>> 000e182f1cb5f8443b045a55011e40dbb8f12ac4
