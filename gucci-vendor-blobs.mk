@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/xiaomi/gucci/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+#    vendor/xiaomi/gucci/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/xiaomi/gucci/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/xiaomi/gucci/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/xiaomi/gucci/proprietary/lib/hw/audio_policy.msm8226.so:system/lib/hw/audio_policy.msm8226.so \
+#    vendor/xiaomi/gucci/proprietary/lib/hw/audio_policy.msm8226.so:system/lib/hw/audio_policy.msm8226.so \
     vendor/xiaomi/gucci/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/gucci/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/xiaomi/gucci/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 	vendor/xiaomi/gucci/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-        vendor/xiaomi/gucci/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+#        vendor/xiaomi/gucci/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
 	vendor/xiaomi/gucci/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
 	vendor/xiaomi/gucci/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
 	vendor/xiaomi/gucci/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -144,7 +144,7 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/xiaomi/gucci/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+#    vendor/xiaomi/gucci/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
@@ -160,7 +160,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/gucci/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+#    vendor/xiaomi/gucci/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/xiaomi/gucci/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/gucci/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -181,7 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/xiaomi/gucci/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+#    vendor/xiaomi/gucci/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -196,7 +196,7 @@ PRODUCT_COPY_FILES += \
 
 # Keystore
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/gucci/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+#    vendor/xiaomi/gucci/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/xiaomi/gucci/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/xiaomi/gucci/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/xiaomi/gucci/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
@@ -211,7 +211,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/xiaomi/gucci/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+#    vendor/xiaomi/gucci/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -238,14 +238,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/xiaomi/gucci/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
+ #   vendor/xiaomi/gucci/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
 
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gucci/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/gucci/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/gucci/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/xiaomi/gucci/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+#    vendor/xiaomi/gucci/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -258,7 +258,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/gucci/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+#    vendor/xiaomi/gucci/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/gucci/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/xiaomi/gucci/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -288,7 +288,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/gucci/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+#    vendor/xiaomi/gucci/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/xiaomi/gucci/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/xiaomi/gucci/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/xiaomi/gucci/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
